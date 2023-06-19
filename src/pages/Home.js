@@ -13,6 +13,7 @@ const Home = () => {
     <Box>
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+      <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
     </Box>
   );
 };
@@ -20,5 +21,4 @@ const Home = () => {
 export default Home;
 
     // <Box>
-    //   <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
     // </Box>
